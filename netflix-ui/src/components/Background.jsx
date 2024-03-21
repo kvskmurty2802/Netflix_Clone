@@ -6,8 +6,12 @@ export default function Background() {
   const backgroundstyle = {
     width: '100vw',
     height: '100vh',
-    // position: 'fixed',
-    backgroundPosition: 'center'
+    position: 'fixed',
+    backgroundPosition: 'center',
+    top:0,
+    left:0,
+    zIndex:-1,
+
   }
   return (
     <div className='backgroundstyle'>
