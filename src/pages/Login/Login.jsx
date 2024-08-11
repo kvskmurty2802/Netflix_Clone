@@ -1,24 +1,24 @@
 import { useState } from "react";
 import "./Login.css";
 import logo from "../../assets/logo.png";
-import { login,signup } from "../../Firebase";
+// import { login,signup } from "../../Firebase";
 // import { useEffect } from "react";
 
 export default function Login() {
-  const [signState, setSignState]=useState("Sign In");
+  // const [signState, setSignState]=useState("Sign In");
   const [name, setName]=useState("");
   const [email, setEmail]=useState("");
   const [password, setPassword]=useState("");
 
-  const user_auth = async(event)=>{
-    event.preventDefault();
-    if(signState==="Sign In"){
-      await login(email,password)
-    }
-    else{
-      await signup(name, email,password);
-    }
-  }
+  // const user_auth = async(event)=>{
+  //   event.preventDefault();
+  //   if(signState==="Sign In"){
+  //     await login(email,password)
+  //   }
+  //   else{
+  //     await signup(name, email,password);
+  //   }
+  // }
 
   return (
     <div className="login">
