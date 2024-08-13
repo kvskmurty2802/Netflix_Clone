@@ -1,5 +1,4 @@
 import Home from "./pages/Home/Home";
-import Login from "./pages/Login/Login"
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Player from "./pages/Player/Player";
 import 'react-toastify/dist/ReactToastify.css';
