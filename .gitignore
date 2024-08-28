@@ -1,8 +1,5 @@
 # Logs
 logs
-.firebaseConfig.json
-src/firebaseConfig.json
-firebaseConfig.json
 .env
 *.env
 *.log
